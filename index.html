@@ -16,15 +16,33 @@
 	</head>
 	<body>
 		<div class="container-fluid">
-			<h1>Wingy</h1>
-			<p class="lead">A responsive sidebar plugin for Bootstrap 3</p>
-			<p>Just include the plugin files after the Bootstrap css and js and add the wingy classes to your grid items.</p>
-			<p><button type="button" class="btn btn-primary btn-lg" data-toggle="wingy" data-target="#myWingy">Wingy</button></p>
-			<ul class="list-inline">
-				<li>Plugin by <a href="http://heyjones.com" target="_blank">Hey Jones!</a></li>
-				<li><a href="https://github.com/heyjones" target="_blank">Github</a></li>
-				<li><a href="https://twitter.com/heyjones" target="_blank">Twitter</a></li>
-			</ul>
+			<div class="row wingy">
+				<div class="col-sm-12" data-wingy="col-sm-8">
+					<h1>Wingy</h1>
+					<p class="lead">A responsive sidebar plugin for Bootstrap 3</p>
+					<p>Just include the plugin files after the Bootstrap css and js and add the wingy classes to your grid items.</p>
+					<p><button type="button" class="btn btn-primary btn-lg" data-toggle="wingy">Wingy</button></p>
+					<ul class="list-inline">
+						<li>Plugin by <a href="http://heyjones.com" target="_blank">Hey Jones!</a></li>
+						<li><a href="https://github.com/heyjones" target="_blank">Github</a></li>
+						<li><a href="https://twitter.com/heyjones" target="_blank">Twitter</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-0" data-wingy="col-sm-4">
+					<h2>Toasty!</h2>
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						</div>
+						<button type="submit" class="btn btn-default">Submit</button>
+					</form>
+				</div>
+			</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>

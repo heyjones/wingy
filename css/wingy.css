@@ -1,0 +1,17 @@
+.col-xs-0, .col-sm-0, .col-md-0, .col-lg-0{
+	float: left;
+	margin: 0px;
+	min-height: 1px;
+	overflow: hidden;
+	padding: 0px;
+	width: 0px;
+}
+.wingy{
+}
+.wingy div[class^='col-']{
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease;
+	-ms-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
